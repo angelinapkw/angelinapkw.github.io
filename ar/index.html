@@ -49,32 +49,9 @@
           Edit size, position, texture and animation here -->
 
           <a-box 
-          width="0.5"
-          height="0.5"
-          depth="0.5"
-          position="1 0 0" 
-          rotation="0 0 0"           
-          src="Untitled-3.png"
-          transparent="true"
-          alphaTest= "0.5"
-          env-map="#env"
-          metalness="1.0"
-          roughness="0.0"
-          animation="
-          property: width; 
-          from: 1; 
-          to: 4; 
-          easing: linear; 
-          dur: 10;
-          dir: alternate;                    
-          loop:true"            
-          >                 
-    </a-box>
-   
-    <a-box 
-          width="0.5"
-          height="0.5"
-          depth="0.5"
+          width="2"
+          height="2"
+          depth="2"
           position="0 0 0" 
           rotation="0 0 0"           
           src="Untitled-3.png"
@@ -89,10 +66,32 @@
           to: 0 360 0; 
           easing: linear; 
           dur: 10000; 
-          loop:true" 
-          
+          loop:true"         
           >                 
     </a-box>
+   
+    <a-box 
+          width="1"
+          height="1"
+          depth="1"
+          position="2 0 0" 
+          rotation="0 0 0"           
+          src="Untitled-3.png"
+          transparent="true"
+          alphaTest= "0.5"
+          env-map="#env"
+          metalness="1.0"
+          roughness="0.0"
+          animation="
+          property: rotation; 
+          from: 0 0 0; 
+          to: 0 360 0; 
+          easing: linear; 
+          dur: 10000; 
+          loop:true"         
+          >                 
+    </a-box>  
+   
 
         <!-- !!! END MARKER 1 !!! -->
       </a-marker>
