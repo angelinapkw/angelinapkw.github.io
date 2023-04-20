@@ -48,11 +48,12 @@
         <!-- This is the object <a-object> 
           Edit size, position, texture and animation here -->
 
-          <a-sphere 
-         height="1.5"
-         radius="1"
-         position="0 0.5 0" 
-         rotation="0 40 0"               
+          <a-box 
+         width="2"
+         height="2"
+         depth="2"
+         position="0 0.1 0" 
+         rotation="0 0 0"           
          src="Untitled-3.png"
          transparent="true"
          alphaTest= "0.5"
@@ -60,22 +61,15 @@
          metalness="1.0"
          roughness="0.0"
          animation="
-               property: rotation; 
-               from: 0 0 0; 
-               to: 0 360 0; 
-               easing: linear; 
-               dur: 10000; 
-               loop:true" 
-              animation__2="
-               property: radius; 
-               from: 0.1; 
-               to: 2; 
-               easing: linear; 
-               dur: 400;
-               dir: alternate;
-               loop:true"
+         property: width; 
+         from: 1; 
+         to: 4; 
+         easing: linear; 
+         dur: 5;
+         dir: alternate;                    
+         loop:true"            
          >                 
-   </a-sphere>                        
+   </a-box>              
     
    <a-sphere
               radius="0.5"
