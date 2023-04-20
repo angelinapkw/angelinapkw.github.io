@@ -49,10 +49,10 @@
           Edit size, position, texture and animation here -->
 
           <a-box 
-         width="0.5"
-         height="0.5"
-         depth="0.5"
-         position="0 0.1 0" 
+         width="2"
+         height="2"
+         depth="2"
+         position="0 0.5 0" 
          rotation="0 0 0"           
          src="Untitled-3.png"
          transparent="true"
@@ -65,62 +65,57 @@
          from: 1; 
          to: 4; 
          easing: linear; 
-         dur: 20;
+         dur: 50;
          dir: alternate;                    
          loop:true"            
          >                 
-   </a-box>              
-    
-   <a-sphere
-              radius="0.5"
-              height="1.5"
-              position= "-4 5 -4"
-              src="virusbody.png"
-              animation="
-               property: rotation; 
-               from: 0 0 0; 
-               to: 0 360 0; 
-               easing: linear; 
-               dur: 10000; 
-               loop:true"
-                animation__2="
-                property: position; 
-                from: 1 0.5 -3; 
-                to: 1 2 -3; 
-                dir: alternate;
-                easing: linear; 
-                dur: 5000; 
-                loop:true"
-                >                  
-        </a-sphere>
-
-        <a-marker type='pattern' url='pattern-marker7543.patt' smooth="true">
-
-          <!-- This is the object <a-object> 
-            Edit size, position, texture and animation here -->
-
-            <a-sphere
-            radius="0.5"
-            height="1.5"
-            position= "-3 0.5 -3"
-            src="virusbody.png"
-            animation="
-             property: rotation; 
-             from: 0 0 0; 
-             to: 0 360 0; 
-             easing: linear; 
-             dur: 10000; 
-             loop:true"
-              animation__2="
-              property: position; 
-              from: 1 0.5 -3; 
-              to: 1 2 -3; 
-              dir: alternate;
-              easing: linear; 
-              dur: 5000; 
-              loop:true"
-              >                  
-      </a-sphere>
+   </a-box>
+  
+  <a-box 
+         width="3"
+         height="2"
+         depth="2"
+         position="5 0 0" 
+         rotation="0 0 0"           
+         src="Untitled-3.png"
+         transparent="true"
+         alphaTest= "0.5"
+         env-map="#env"
+         metalness="1.0"
+         roughness="0.0"
+         animation="
+         property: width; 
+         from: 1; 
+         to: 4; 
+         easing: linear; 
+         dur: 10;
+         dir: alternate;                    
+         loop:true"            
+         >                 
+   </a-box>
+  
+   <a-box 
+         width="2"
+         height="2"
+         depth="2"
+         position="3 3 0.5" 
+         rotation="0 0 0"           
+         src="Untitled-3.png"
+         transparent="true"
+         alphaTest= "0.5"
+         env-map="#env"
+         metalness="1.0"
+         roughness="0.0"
+         animation="
+         property: rotation; 
+         from: 0 0 0; 
+         to: 0 360 0; 
+         easing: linear; 
+         dur: 10000; 
+         loop:true" 
+         
+         >                 
+   </a-box>
 
         <!-- !!! END MARKER 1 !!! -->
       </a-marker>
