@@ -94,6 +94,34 @@
                 >                  
         </a-sphere>
 
+        <a-marker type='pattern' url='pattern-marker7543.patt' smooth="true">
+
+          <!-- This is the object <a-object> 
+            Edit size, position, texture and animation here -->
+
+            <a-sphere
+            radius="3"
+            height="1.5"
+            position= "-3 0.5 -3"
+            src="virusbody.png"
+            animation="
+             property: rotation; 
+             from: 0 0 0; 
+             to: 0 360 0; 
+             easing: linear; 
+             dur: 10000; 
+             loop:true"
+              animation__2="
+              property: position; 
+              from: 1 0.5 -3; 
+              to: 1 2 -3; 
+              dir: alternate;
+              easing: linear; 
+              dur: 5000; 
+              loop:true"
+              >                  
+      </a-sphere>
+
         <!-- !!! END MARKER 1 !!! -->
       </a-marker>
       
