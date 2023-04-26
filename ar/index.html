@@ -48,28 +48,50 @@
         <!-- This is the object <a-object> 
           Edit size, position, texture and animation here -->
 
-          <a-box 
-          width="4"
-          height="4"
-          depth="0.05"
-          position="0 0 0" 
-          rotation="0 0 0"           
-          src="Untitled-3.png"
-          transparent="true"
-          alphaTest= "0.5"
-          env-map="#env"
-          metalness="1.0"
-          roughness="0.0"  
-          
-          animation="
-               property: rotation; 
-               from: -100 -100 -100; 
-               to: -100 -100 -100; 
-               easing: linear; 
-               dur: 10000; 
-               loop:true"     
-          >                 
-    </a-box>
+          <a-box
+         width="2"
+         height="3.5"
+         depth="0.05"
+         position="0 0 0"
+         rotation="0 0 0"          
+         src="Untitled-3.png"
+         transparent="true"
+         alphaTest= "0.5"
+         env-map="#env"
+         metalness="1.0"
+         roughness="0.0"
+         animation="
+         property: rotation;
+         from: 0 0 0;
+         to: 0 360 0;
+         easing: linear;
+         dur: 10000;
+         loop:true"        
+         >                
+   </a-box>
+ 
+   <a-box
+         width="1"
+         height="1"
+         depth="1"
+         position="2 0 0"
+         rotation="0 0 0"          
+         src="Untitled-3.png"
+         transparent="true"
+         alphaTest= "0.5"
+         env-map="#env"
+         metalness="1.0"
+         roughness="0.0"
+         animation="
+         property: rotation;
+         from: 0 0 0;
+         to: 0 360 0;
+         easing: linear;
+         dur: 10000;
+         loop:true"        
+         >                
+   </a-box> 
+
    
 
     
