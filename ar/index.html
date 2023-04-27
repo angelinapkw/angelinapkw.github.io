@@ -49,9 +49,9 @@
           Edit size, position, texture and animation here -->
  
    <a-box
-         width="1"
-         height="1"
-         depth="1"
+         width="2"
+         height="2"
+         depth="2"
          position="2 0 0"
          rotation="0 0 0"          
          src="Untitled-1.png"
@@ -70,6 +70,27 @@
          >                
    </a-box> 
 
+   <a-box
+   width="3"
+   height="3"
+   depth="3"
+   position="0 0 0"
+   rotation="0 0 0"          
+   src="Untitled-1.png"
+   transparent="true"
+   alphaTest= "0.5"
+   env-map="#env"
+   metalness="1.0"
+   roughness="0.0"
+   animation="
+   property: rotation;
+   from: 0 0 0;
+   to: 0 360 0;
+   easing: linear;
+   dur: 10000;
+   loop:true"        
+   >                
+</a-box> 
    
 
     
@@ -105,7 +126,7 @@
         <a-sphere
               radius="1"
               height="1"
-              position= "-0.5 0 0"
+              position= "0 2 0"
               src="virusbody.png"
               animation="
                property: rotation; 
