@@ -18,6 +18,11 @@ src: url(custom-font/assets/css/fonts/CutiveMono-Regular.ttf);
     font-family: 'BBB';
     src: url(custom-font/assets/css/fonts/BBB_Simulator_Black.otf);
 }
+
+div.details {
+text-align: center;
+}
+
 h1 {
     font-weight: normal;
     font-size: 25px;
