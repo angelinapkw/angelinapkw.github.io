@@ -6,6 +6,7 @@ body {
     font-size: 15px;
     font-weight: normal;
     font-family: 'cutive';
+    text-align: center;
 }
 
 @font-face {
@@ -21,6 +22,7 @@ h1 {
     font-weight: normal;
     font-size: 25px;
     font-family: 'BBB';
+    text-align: center;
 }
 
 p {
@@ -28,6 +30,7 @@ p {
     font-size: 15px;
     font-weight: bolder;
     font-kerning: initial;
+    text-align: center;
 }
 
 div.title {
