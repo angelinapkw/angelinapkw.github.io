@@ -49,21 +49,24 @@ div.ALLTHETIME {
 }
 
 div.paragraph3 {
-margin-right: 80px;
+    text-align: center;
 }
 
 h2 {
     font-weight: normal;
     font-size: 18px;
+    text-align: center;
 }
 
 
 div.paragraph3 {
     margin-top: 50px;
+    text-align: center;
 }
 
 div.closingthoughts {
     margin-top: 50px;
+    text-align: center;
     
 }
 
