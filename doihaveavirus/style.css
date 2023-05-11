@@ -1,0 +1,112 @@
+body {
+    background-color: white;
+    font-size: 36px;
+}
+
+@font-face {
+  font-family: 'cutive';
+  src: url(custom-font/assets/css/fonts/CutiveMono-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: 'BBB';
+    src: url(custom-font/assets/css/fonts/BBB_Simulator_Black.otf);
+}
+
+div.width33 {
+width: 33.333%;
+}
+
+div.width100 {
+    width: 100%;
+}
+
+div.menu {
+    position:fixed;
+    background-color: white;
+    font-family: 'BBB';
+    top: 0px;
+    left: 490px;
+    width: 50%;
+}
+
+div.row {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+div.col {
+    outline:2px solid blue;
+    height: 500px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+div.col2 {
+    height: 100px;
+    outline: blue dashed;
+    text-align: center;
+}
+
+
+div.popup {
+    width: 50%;
+    margin: auto;
+    position: relative;
+  }
+  
+ div.popupcontent {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    top:0;
+    bottom: 0;
+    left: 25%;
+    right: 25%;
+    background-color: #ff0000;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+
+  div.popup2 {
+    width: 50%;
+    margin: auto;
+    position: absolute;
+  }
+
+  div.popupcontent2 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 140%;
+    right: 15%;
+    background-color: #ff0000;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+
+  div.popup3 {
+    width: 50%;
+    margin: auto;
+    position: absolute;
+  }
+
+  div.popupcontent3 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 10%;
+    right: 20%;
+    background-color: #ff0000;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+
+  
+div.bgblue {
+    background-color: blue;
+}
