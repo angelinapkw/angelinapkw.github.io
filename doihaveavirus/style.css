@@ -1,112 +1,109 @@
 body {
-    background-color: white;
-    font-size: 36px;
+font-size: 36px;
+  background: url(waitingroom.jpg);
+background-size: 100%;
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 @font-face {
+font-family:'BBB';
+src: url('custom-font/assets/css/fonts/BBB_Simulator_Black.otf')
+}
+
+@font-face {
+  font-family:'cutive';
+  src: url('custom-font/assets/css/fonts/CutiveMono-Regular.ttf')
+  }
+
+div.title {
+  position:fixed;
+  top: 0px;
+  left: 420px;
+  width: 50%;
+  font-family: 'BBB';
+  font-size:50px;
+  color: blue;
+}
+
+div.marquee {
+  font-size: 30px;
   font-family: 'cutive';
-  src: url(custom-font/assets/css/fonts/CutiveMono-Regular.ttf);
-  }
-
-  @font-face {
-    font-family: 'BBB';
-    src: url(custom-font/assets/css/fonts/BBB_Simulator_Black.otf);
+  color: black;
+  background-color: white;
+  margin-bottom:100px;
+  margin-top: 70px;
 }
 
-div.width33 {
-width: 33.333%;
+div.row{
+display: flex;
+flex-wrap:wrap;
 }
 
-div.width100 {
-    width: 100%;
+div.col1{
+  outline: 2px solid cyan;
+  width:300%;
+  height: 80vh;
+  left: 0
 }
 
-div.menu {
-    position:fixed;
-    background-color: white;
-    font-family: 'BBB';
-    top: 0px;
-    left: 490px;
-    width: 50%;
+div.backgroundimage {
+  width:100%;
+  height: 200vh;
+  background-image:url("waitingroom.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  font-size: 20px;
+  opacity: 50%;
 }
 
-div.row {
-    display:flex;
-    flex-wrap:wrap;
+div.subheading {
+  color: white;
+  font-family: 'BBB';
+  text-align: center;
+ margin-top: 80px;
 }
+ 
 
-div.col {
-    outline:2px solid blue;
-    height: 500px;
-    text-align: center;
-    margin-top: 50px;
-}
-
-div.col2 {
-    height: 100px;
-    outline: blue dashed;
-    text-align: center;
+div.col{
+  outline: 2px solid cyan;
+  width:100%;
 }
 
 
-div.popup {
-    width: 50%;
-    margin: auto;
-    position: relative;
-  }
-  
- div.popupcontent {
-    position: absolute;
-    width: 300px;
-    height: 100px;
-    top:0;
-    bottom: 0;
-    left: 25%;
-    right: 25%;
-    background-color: #ff0000;
-    padding: 20px;
-    border: 1px solid #ddd;
-  }
+a:hover {
+  text-decoration: underline;
+}
 
-  div.popup2 {
-    width: 50%;
-    margin: auto;
-    position: absolute;
-  }
 
-  div.popupcontent2 {
-    position: absolute;
-    width: 300px;
-    height: 100px;
-    top: 0;
-    bottom: 0;
-    left: 140%;
-    right: 15%;
-    background-color: #ff0000;
-    padding: 20px;
-    border: 1px solid #ddd;
-  }
+div.button {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 100%;
+}
 
-  div.popup3 {
-    width: 50%;
-    margin: auto;
-    position: absolute;
-  }
+div.nav {
+  background-color: #fff;
+}
 
-  div.popupcontent3 {
-    position: absolute;
-    width: 300px;
-    height: 100px;
-    top: 0;
-    bottom: 0;
-    left: 10%;
-    right: 20%;
-    background-color: #ff0000;
-    padding: 20px;
-    border: 1px solid #ddd;
-  }
+div.nav a {
+  color:blue;
+}
 
-  
-div.bgblue {
-    background-color: blue;
+div.box {
+  border: 10px solid white;
+  padding: 20px;
+  margin-top: 18%;
+  margin-right: 10%;
+  margin-left: 10%;
+  border-radius: 100px;
+}
+
+div.box {
+  font-family: 'BBB';
+  color: blue;
+  font-size: 36px;
+text-align: center;
 }
